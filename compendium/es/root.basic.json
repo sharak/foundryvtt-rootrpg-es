@@ -1,9 +1,19 @@
 {
 	"label": "Movimientos básicos",
+	"mapping": {
+		"description": "system.description",
+		"critical": "system.moveResults.critical.value",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value"
+	},
 	"entries": {
 		"Attempt a Roguish Feat": {
 			"name": "Intentar una proeza de granuja",
-			"description": "Cuando intentas una proeza de granuja en la que eres habilidoso, di cuál es el objetivo y tira con Finura. Si aciertas, consigues tu objetivo. Con un resultado de 7–9, marcas 1 casilla de agotamiento o un asumes el riesgo de tu proeza (a elección del DJ). Cuando intentas una proeza de granuja en la que NO eres diestro, estás confiando en el destino."
+			"description": "Cuando intentas una proeza de granuja en la que eres habilidoso, di cuál es el objetivo y tira con Finura. Cuando intentas una proeza de granuja en la que NO eres diestro, estás confiando en el destino.",
+			"success": "Con un resultado de 10+, consigues tu objetivo",
+			"partial": "Con un resultado de 7–9, marcas 1 casilla de agotamiento o un asumes el riesgo de tu proeza (a elección del DJ).",
+			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
 		},
 		"Figure Someone Out": {
 			"name": "Figure Someone Out"
