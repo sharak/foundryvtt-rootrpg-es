@@ -16,29 +16,54 @@
 			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
 		},
 		"Figure Someone Out": {
-			"name": "Figure Someone Out"
+			"name": "Discernir las intenciones de alguien",
+			"description": "<p>Cuando intentes discernir las intenciones de alguien, tira con Carisma. Mientras interactúas con ese alguien, puedes utilizar los puntos guardados que hayas conseguido a razón de 1 punto por cada pregunta al jugador/DJ que interpreta a ese personaje</p><details><summary>Preguntas</summary><ul><li>¿Está diciendo la verdad tu personaje?</li><li>¿Qué siente realmente tu personaje?</li><li>¿Qué pretende hacer tu personaje?</li><li>¿Qué desearía tu personaje que yo hiciera?</li><li>¿Cómo podría conseguir que tu personaje ______?</li></ul></details>",
+			"success": "Con un resultado de 10+, guardas 3 puntos.",
+			"partial": "Con un resultado 7–9, guardas 1 punto.",
+			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre."
 		},
 		"Help or Interfere": {
-			"name": "Help or Interfere"
+			"name": "Ayudar o interferir",
+			"description": "<p>Cuando ayudas o interfieres a otro vagabundo, puedes aceptar marcar una casilla de agotamiento para sumar +1 o -2 a su tirada (después de tirar). Marca una casilla más de agotamiento para seleccionar una de las siguientes opciones:</p><ul><li>Ocultar tu ayuda o interferencia</li><li>Crear una oportunidad u obstáculo</li></ul>"
 		},
 		"Persuade an NPC": {
-			"name": "Persuade an NPC"
+			"name": "Persuadir a un PNJ",
+			"description": "<p>Cuando persuades a un PNJ con promesas o amenazas, tiras Carisma.</p>",
+			"success": "Con un resultado de 10+, consigues que vea las cosas a tu manera, siempre que le hayas dado un motivo sólido o un soborno razonable.",
+			"partial": " Con un resultado 7–9, no está seguro; el DJ te dirá lo que tienes que hacer para convencerlo.",
+			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre."
 		},
 		"Plead with a PC": {
-			"name": "Plead with a PC"
+			"name": "Suplicar a un PJ",
+			"description": "<p>Cuando suplicas a un PJ que te siga la corriente, se libera de 1 marca de agotamiennto si acepta lo que le propones. Solo puedes usar este movimiento una vez por sesión.</p>"
 		},
 		"Read a Tense Situation": {
 			"name": "Leer una situación tensa",
-			"description": "<p>Cuando leas una situación tensa, tiras con Astucia.</p>\n<details>\n<summary>Preguntas</summary>\n<ul>\n<li>?Cuál es mi mejor manera para salir/entrar/atravesar esta situación?</li><li>¿Quién o qué es la mayor amenaza?</li><li>¿Quién o qué es más vulnerable con respecto a mi?</li><li>¿Qué debe tener en cuenta?</li>\n<li>¿Quién tiene el control aquí?</li></ul></details>"
+			"description": "<p>Cuando leas una situación tensa, tiras con Astucia. Ganas un bonificador de +1 en los movimientos posteriores cuando actúes según las respuestas que obtengas.</p>\n<details>\n<summary>Preguntas</summary>\n<ul>\n<li>¿Cuál es mi mejor manera para salir/entrar/atravesar esta situación?</li><li>¿Quién o qué es la mayor amenaza?</li><li>¿Quién o qué es más vulnerable con respecto a mi?</li><li>¿Qué debe tener en cuenta?</li>\n<li>¿Quién tiene el control aquí?</li></ul></details>",
+			"success": "Con un resultado de 10+, puedes hacer tres preguntas.",
+			"partial": "Con un resultado 7–9, puedes hacer una pregunta.",
+			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre."
 		},
 		"Trick an NPC": {
-			"name": "Trick an NPC"
+			"name": "Engañar a un PNJ",
+			"description": "<p>Cuando engañas a un PNJ para conseguir lo que quieres, tiras con Astucia</p>",
+			"success": "Con un resultado de 10+, muerde el anzuelo y hace lo que quieres.",
+			"partial": "<p>Con un resultado 7–9, puedes elegir una de las siguientes opciones.</p><ul><li>Duda; debilitas su confianza o su moral.</li><li>Tiene un desliz; ganas una oportunidad crítica.</li><li>Reacciona de forma exagerada; ganas +1 al siguiente contra él</li></ul>",
+			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre."
 		},
 		"Trust Fate": {
-			"name": "Trust Fate"
+			"name": "Confiar en el destino",
+			"description": "<p>Cuando confías en el destino para superar un problema, tiras con Suerte.</p>",
+			"success": "Con un resultado de 10+, la fortuna favorece a los audaces; tu desenvoltura también te hace ganar una oportunidad fugaz.",
+			"partial": "Con un resultado de 7-9, te las apañas o sales del paso; el DJ te dirá el coste que supone hacerlo.",
+			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre."
 		},
 		"Wreck Something": {
-			"name": "Wreck Something"
+			"name": "Destrozar algo",
+			"description": "<p>Cuando destrozas algo, tiras con Poderío.</p>",
+			"success": "Con un resultado de 10+, lo rompes del todo y no se podrá volver a utilizar hasta que se repare.",
+			"partial": "Con un resultado de 7-9, has sido impreciso y el resultado es peligroso: causas daños colaterales, llamas la atención o acabas en mal lugar o situación, a elección del DJ.",
+			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre."
 		}
 	}
 }
