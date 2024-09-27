@@ -1,0 +1,34 @@
+{
+	"label": "Movimientos básicos",
+	"entries": {
+		"Attempt a Roguish Feat": {
+			"name": "Intentar una proeza de granuja",
+			"description": "Cuando intentas una proeza de granuja en la que eres habilidoso, di cuál es el objetivo y tira con Finura. Si aciertas, consigues tu objetivo. Con un resultado de 7–9, marcas 1 casilla de agotamiento o un asumes el riesgo de tu proeza (a elección del DJ). Cuando intentas una proeza de granuja en la que NO eres diestro, estás confiando en el destino."
+		},
+		"Figure Someone Out": {
+			"name": "Figure Someone Out"
+		},
+		"Help or Interfere": {
+			"name": "Help or Interfere"
+		},
+		"Persuade an NPC": {
+			"name": "Persuade an NPC"
+		},
+		"Plead with a PC": {
+			"name": "Plead with a PC"
+		},
+		"Read a Tense Situation": {
+			"name": "Leer una situación tensa",
+			"description": "<p>Cuando leas una situación tensa, tiras con Astucia.</p>\n<details>\n<summary>Preguntas</summary>\n<ul>\n<li>?Cuál es mi mejor manera para salir/entrar/atravesar esta situación?</li><li>¿Quién o qué es la mayor amenaza?</li><li>¿Quién o qué es más vulnerable con respecto a mi?</li><li>¿Qué debe tener en cuenta?</li>\n<li>¿Quién tiene el control aquí?</li></ul></details>"
+		},
+		"Trick an NPC": {
+			"name": "Trick an NPC"
+		},
+		"Trust Fate": {
+			"name": "Trust Fate"
+		},
+		"Wreck Something": {
+			"name": "Wreck Something"
+		}
+	}
+}
