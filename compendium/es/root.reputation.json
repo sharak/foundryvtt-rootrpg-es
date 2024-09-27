@@ -16,11 +16,15 @@
       "failure": "Con un resultado de 6-, se niegan a ayudarte y te miran con recelo: marcas infamia."
     },
     "Command Resources": {
-      "name": "Command Resources"
+      "name": "Exigir recursos",
+      "description": "<p><strong>REQUIERE UNA REPUTACIÓN DE +3</strong></p><p>Cuando <strong><em>exiges a un PNJ que te dé recursos importantes y valiosos</em></strong>, tiras con el valor de Reputación para su facción.</p>",
+      "success": "Con un resultado de 10+, obtienes lo que necesitas en cuanto pueda conseguírtelo.",
+      "partial": "Con un resultado de 7-9, te impone una condición sobre cómo puedes utilizar los recursos o algo que debes dar a la facción a cambio.",
+      "failure": "Con un resultado de 6-, no tendrá lo que necesitas, pero te dirá cómo conseguirlo a un alto cosa o con serias dificultades."
     },
     "Draw Attention": {
       "name": "Atraer la atención",
-      "description": "<p><strong>REQUIERE UNA REPUTACIÓN DE -2 O MENOR</strong></p><p>Cuando <strong><em>intentas llamar la atención públicamente como enemigo de una facción</em></strong>, tira con la Reputación para esa facción, tratándola como si su valor fuera positivo (+2 o +3) para esta tirada.</p><details><summary>Opciones</summary><ul><li>La facción emplea una fuerza militar significativa para perseguirte</li><li>La facción despliega un agente PNJ disponible y capaz (de tu elección) para perseguirte.</li><li>La facción se inquieta por tu amenaza; marca 2 casillas de infamia con ellos.</li></ul></details>",
+      "description": "<p><strong>REQUIERE UNA REPUTACIÓN DE -2 O MENOR</strong></p><p>Cuando <strong><em>intentas llamar la atención públicamente como enemigo de una facción</em></strong>, tira con la Reputación para esa facción, tratándola como si su valor fuera positivo (+2 o +3) para esta tirada.</p><details><summary>Opciones</summary><ul><li>La facción emplea una fuerza militar significativa para perseguirte.</li><li>La facción despliega un agente PNJ disponible y capaz (de tu elección) para perseguirte.</li><li>La facción se inquieta por tu amenaza; marca 2 casillas de infamia con ellos.</li></ul></details>",
       "success": "Con un resultado de 10+, atraés contra ti los recursos de la facción; prepárate. Elige dos opciones.",
       "partial": "Con un resultado de 7-9, atraés contra ti los recursos de la facción; prepárate. Elige una opción.",
       "failure": "Con un resultado de 6-, tus enemigos ya se estaban movientdo contra ti silenciosamente; el DJ te cuenta cómo te pillan desprevenido."
@@ -43,7 +47,7 @@
       "name": "Influir en un PNJ",
       "description": "<p><strong>REQUIERE UNA REPUTACIÓN DE +2 O MÁS</strong></p><p>Cuando <strong><em>intentas influir en un PNJ receptivo o vulnerable</em></strong>, tira con la Reputación para su facción.</p>",
       "success": "Con un resultado de 10+, puedes hacerle cambiar de opinión sobre lo que ocurre en el mundo; di lo que quieres que crea y el DJ reescribirá su motivación en consecuencia.",
-      "partial": "Con un resultado de 7-9, puedes hacerle cambiar de opinión sobre lo que ocurre en el mundo; di lo que quieres que crea y el DJ reescribirá su motivación en consecuencia, pero desgastas parte de su buena voluntad y borras 3 casillas de prestigio",
+      "partial": "Con un resultado de 7-9, puedes hacerle cambiar de opinión sobre lo que ocurre en el mundo; di lo que quieres que crea y el DJ reescribirá su motivación en consecuencia, pero desgastas parte de su buena voluntad y borras 3 casillas de prestigio.",
       "failure": "Con un resultado de 6-, el PNJ interpreta mal lo que dices; el DJ reescribirá su motivación en consecuencia."
     }
   }
