@@ -1,0 +1,50 @@
+{
+  "label": "Movimientos de reputación",
+  "mapping": {
+    "description": "system.description",
+    "critical": "system.moveResults.critical.value",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value"
+  },
+  "entries": {
+    "Ask for a Favor": {
+      "name": "Pedir un favor",
+      "description": "<p>Cuando <strong><em>pidas un favor razonable basado en tu reputación</em></strong>, tira con el valor de Reputación que tengas con la facción correspondiente.</p>",
+      "success": "Con un resultado de 10+, te concederán lo que quieres.",
+      "partial": "Con un resultado de 7-9, te concederán lo que quieres pero te cuesta un pooc de tu Reputación; elimina casillas marcadas de prestigio o marca casillas de infamia, tú eliges.",
+      "failure": "Con un resultado de 6-, se niegan a ayudarte y te miran con recelo: marcas infamia."
+    },
+    "Command Resources": {
+      "name": "Command Resources"
+    },
+    "Draw Attention": {
+      "name": "Atraer la atención",
+      "description": "<p><strong>REQUIERE UNA REPUTACIÓN DE -2 O MENOR</strong></p><p>Cuando <strong><em>intentas llamar la atención públicamente como enemigo de una facción</em></strong>, tira con la Reputación para esa facción, tratándola como si su valor fuera positivo (+2 o +3) para esta tirada.</p><details><summary>Opciones</summary><ul><li>La facción emplea una fuerza militar significativa para perseguirte</li><li>La facción despliega un agente PNJ disponible y capaz (de tu elección) para perseguirte.</li><li>La facción se inquieta por tu amenaza; marca 2 casillas de infamia con ellos.</li></ul></details>",
+      "success": "Con un resultado de 10+, atraés contra ti los recursos de la facción; prepárate. Elige dos opciones.",
+      "partial": "Con un resultado de 7-9, atraés contra ti los recursos de la facción; prepárate. Elige una opción.",
+      "failure": "Con un resultado de 6-, tus enemigos ya se estaban movientdo contra ti silenciosamente; el DJ te cuenta cómo te pillan desprevenido."
+    },
+    "Make a Pointed Threat": {
+      "name": "Hacer una amenaza dirigida",
+      "description": "<p><strong>REQUIERE UNA REPUTACIÓN DE -3</strong></p><p>Cuando <strong><em>hagas una amenaza dirigida a un PNJ enarbolando tu reputación</em></strong>, tira con el valor de Reputación con su facción, tratándola como positiva (+3) para la tirada.</p>",
+      "success": "Con un resultado de 10+, el PNJ se asusta; debe rendirse, retirarse o cargar contra ti, a elección del DJ.",
+      "partial": "Con un resultado de 7-9, debes hacer una demostración de tus peligrosas intenciones para que se asuste.",
+      "failure": "Con un resultado de 6-, tu reputación te precede y el PNJ revela cómo se preparó para enfrentarse a alguien como tú."
+    },
+    "Meet Someone Important": {
+      "name": "Encontrarse con alguien importante",
+      "description": "<p>Cuando <strong><em>te encuentres con alguien importante por primera vez</em></strong>, tira con la Reputación que tengas con su facción.</p><details><summary>Opciones</summary><ul><li>Has oído historias; haz una pregunta sobre el PNJ importante y el DJ te responderá contandote una historia que hayas oído sobre él o sus intereses.</li><li>El PNJ ha oído algo que te es favorable; ganas +1 al siguiente cuando intentes por primera vez utilizar tu conexión con el PNJ y su facción.</li></ul></details>",
+      "success": "Con un resultado de 10+, estás al tanto de su reputación (si la tiene) en un sentido amplio y él conoce la tuya (si la tienes). Eliges ambas opciones.",
+      "partial": "Con un resultado de 7-9, estás al tanto de su reputación (si la tiene) en un sentido amplio y él conoce la tuya (si la tienes). Eliges una de las opciones.",
+      "failure": "Con un resultado de 6-, solo sabes lo básico sobre él, pero él sí ha oído historias sobre ti y las cosas que has hecho, ya sean verdaderas o falsas, pero más vale que te prepares para complicaciones significativas."
+    },
+    "Sway an NPC": {
+      "name": "Influir en un PNJ",
+      "description": "<p><strong>REQUIERE UNA REPUTACIÓN DE +2 O MÁS</strong></p><p>Cuando <strong><em>intentas influir en un PNJ receptivo o vulnerable</em></strong>, tira con la Reputación para su facción.</p>",
+      "success": "Con un resultado de 10+, puedes hacerle cambiar de opinión sobre lo que ocurre en el mundo; di lo que quieres que crea y el DJ reescribirá su motivación en consecuencia.",
+      "partial": "Con un resultado de 7-9, puedes hacerle cambiar de opinión sobre lo que ocurre en el mundo; di lo que quieres que crea y el DJ reescribirá su motivación en consecuencia, pero desgastas parte de su buena voluntad y borras 3 casillas de prestigio",
+      "failure": "Con un resultado de 6-, el PNJ interpreta mal lo que dices; el DJ reescribirá su motivación en consecuencia."
+    }
+  }
+}

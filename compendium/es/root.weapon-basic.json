@@ -10,14 +10,14 @@
 	"entries": {
 		"Engage in Melee": {
 			"name": "Enfrentarse cuerpo a cuerpo",
-			"description": "<p>Cuando te enfrentas a un enemigo cuerpo a cuerpo a corto alcance o pegado, tiras con Poderío.</p><details>Opciones</details><ul><li>Infligir daño grave (+1)</li><li>Sufrir poco daño (-1)</li><li>Desplazar tu posición en un rango de alcance</li><li>Impresionar, desmoralizar o asustar a tu enemigo</li></ul><summary>",
+			"description": "<p>Cuando te enfrentas a un enemigo cuerpo a cuerpo a corto alcance o pegado, tiras con Poderío.</p><details><summary>Opciones</summary><ul><li>Infligir daño grave (+1)</li><li>Sufrir poco daño (-1)</li><li>Desplazar tu posición en un rango de alcance</li><li>Impresionar, desmoralizar o asustar a tu enemigo</li></ul></details>",
 			"success": "Con un resultado de 10+, intercambias golpes y os causáis daño. Eliges tres opciones.",
 			"partial": "Con un resultado de 7-9, intercambias golpes y os causáis daño. Eliges una opción.",
 			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
 		},
 		"Grapple an Enemy": {
 			"name": "Enzarzarse en una pelea",
-			"description": "<p>Cuando te enzarzas en una pelea con un enemigo a alcance pegado, tiras con Poderío.</p><details>Opciones</details><ul><li>IDas un golpe rápido; infliges 1 herida.</li><li>Lo desgastas; tu enemigo marca 1 casilla de agotamiento.</li><li>Aprovechas una debilidad; marcas 1 casilla de agotamiento para infligir 2 heridas.</li><li>Te retiras; te destrabas y te desplazas a corto alcance.</li></ul><summary>",
+			"description": "<p>Cuando te enzarzas en una pelea con un enemigo a alcance pegado, tiras con Poderío.</p><details><summary>Opciones</summary><ul><li>IDas un golpe rápido; infliges 1 herida.</li><li>Lo desgastas; tu enemigo marca 1 casilla de agotamiento.</li><li>Aprovechas una debilidad; marcas 1 casilla de agotamiento para infligir 2 heridas.</li><li>Te retiras; te destrabas y te desplazas a corto alcance.</li></ul>/<details>",
 			"success": "Con un resultado de 10+, eliges una opción primero. Continuad eligiendo hasta que alguien se destrabe, caiga inconsciente o muera.",
 			"partial": "Con un resultado de 7-9, ambos elegís opciones de resultado simultáneamente. Continuad eligiendo hasta que alguien se destrabe, caiga inconsciente o muera.",
 			"failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
