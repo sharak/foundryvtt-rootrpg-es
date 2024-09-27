@@ -1,0 +1,65 @@
+{
+  "title": "[Translation] Root RPG Spanish",
+  "description": "Traducción del modulo y compendios para Root RPG",
+  "url": "https://github.com/sharak/foundryvtt-rootrpg-es",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Roberto Lorite",
+      "url": "https://github.com/sharak",
+      "flags": {}
+    },
+    {
+      "name": "WallaceMcGregor",
+      "url": "https://github.com/WallaceMcGregor",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "register.js"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/sharak/foundryvtt-rootrpg-es/main/module.json",
+  "download": "https://github.com/sharak/foundryvtt-rootrpg-es/archive/refs/heads/main.zip",
+  "id": "rootrpg-esp",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
+        "compatibility": {
+          "maximum": "0.8.1",
+          "verified": "0.8.1",
+          "minimum": "0.8.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "root",
+        "type": "module",
+        "compatibility": {
+          "verified": "2.1",
+          "minimum": "2.1"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  }
+}
