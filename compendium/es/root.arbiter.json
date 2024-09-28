@@ -1,0 +1,84 @@
+{
+	"label": "Movimientos del Árbitro",
+	"folders": {
+		"Connections": "Conexiones",
+		"Drives": "Motivaciones",
+		"Moves": "Movimientos",
+		"Natures": "Naturalezas"
+	},
+	"mapping": {
+		"traitDescription": "flags.root.traitDescription",
+		"moveDescription": "system.description",
+		"critical": "system.moveResults.critical.value",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value"
+	},
+	"entries": {
+		"Brute": {
+			"name": "Bruto",
+			"moveDescription": "<p>Aumentas Poderío en +1 (máx. +3).</p>"
+		},
+		"Carry a Big Stick": {
+			"name": "Y con el mazo dando",
+			"moveDescription": "<p>Cuando uses palabras para detener una discusión o un conflicto violento entre otros, tiras con Carisma</p>",
+			"success": "Con un resultado de 10+, ellos eligen: marcar 2 casillas de agotamiento y continuar, o parar por ahora. Obtienes +1 Continuo a tratar con ellos pacíficamente.",
+			"partial": "Con un resultado de 7-9, ellos eligen: marcar 2 casillas de agotamiento y continuar, o parar por ahora.",
+			"failure": "Con un resultado de 6-, los PNJ vuelven su ira hacia ti, y los PJ ganan +1 Continuo contra ti durante la escena."
+		},
+		"Crash and Smash": {
+			"name": "Cargar y destruir",
+			"moveDescription": "<p>Cuando te abres paso a golpes por el escenario para alcanzar a alguien o algo, tiras con Poderío.</p><details><summary>Opciones</summary><ul><li>Te haces daño: marcas 1 casilla de heridas.</li><li>Rompes algo importante que forma parte de lo que te rodea.</li><li>Dañas o dejas atrás un objeto del equipo (a elección del DJ).</li></ul></details>",
+			"success": "Con un resultado de 10+, alcanzas a tu objetivo. Eliges una opción.",
+			"partial": "Con un resultado de 7-9, alcanzas a tu objetivo. Eliges dos opciones.",
+			"failure": "Con un resultado de 6-, te abres paso violentamente, pero quedas totalmente vulnerable al llegar."
+		},
+		"Defender": {
+			"name": "Defensor",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando te pones en peligro para defender a alguien de una injusticia o una amenaza grave."
+		},
+		"Guardian": {
+			"name": "Guardián",
+			"moveDescription": "<p>Cuando <strong>defiendes a alguien o algo de una amenaza inmediata de un PNJ o del entorno</strong>, tiras con Poderío.</p><details><summary>Opciones</summary><ul><li>Llamas la atención de la amenaza; ahora se centra en ti.</li><li>Pones a la amenaza en una situación vulnerable; ganas +1 Al siguiente para contraatacar.</li><li>Haces retroceder a la amenaza; tú y tu protegido tenéis la oportunidad para hacer una maniobra o huir.</li></ul></details>",
+			"success": "Con un resultado de 10+, le mantienes a salvo y eliges una opción.",
+			"partial": "Con un resultado de 7-9, le mantienes a salvo y eliges una opción pero tiene un coste: te expones al peligro o agravas la situación.",
+			"failure": "Con un resultado de 6-, recibes todo el impacto del golpe destinado a tu protegido, y la amenaza te tiene ahora justo donde quiere."
+		},
+		"Hardy": {
+			"name": "Duro de roer",
+			"moveDescription": "Adquieres 1 casilla adicional de heridas. Cada vez que pase el tiempo o viajes a un nuevo claro, puedes recuperar 2 casillas de heridas automáticamente."
+		},
+		"Justice": {
+			"name": "Justicia",
+			"traitDescription": "Mejoras cuando consigues justicia para alguien perjudicado por un individuo poderoso, rico o de alto estatus."
+		},
+		"Loyalty": {
+			"name": "Lealtad",
+			"traitDescription": "Eres leal a alguien; di a quién. Mejoras cuando obedezcas sus órdenes a un gran coste para ti."
+		},
+		"Partner": {
+			"name": "Socio",
+			"traitDescription": "_________ y yo ayudamos juntos a una facción a tomar el control de un claro, y compartimos la responsabilidad por ello."
+		},
+		"Principles": {
+			"name": "Principios",
+			"traitDescription": "Mejoras cuando expresas o encarnas tus principios morales a un gran coste para ti o tus aliados."
+		},
+		"Protection": {
+			"name": "Protección",
+			"traitDescription": "Di quién es tu protegido. Mejoras cuando lo proteges de un peligro importante, o cuando pasa el tiempo y tu protegido sigue a salvo."
+		},
+		"Protector": {
+			"name": "Protector",
+			"traitDescription": "Una vez protegí a _________ de un golpe mortal durante un combate, y volvería a hacerlo. ¿Por qué?"
+		},
+		"Punisher": {
+			"name": "Castigador",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando le dices a un villano poderoso o peligroso en su cara que lo castigarás."
+		},
+		"Strong Draw": {
+			"name": "Disparo potente",
+			"moveDescription": "<p>Cuando <strong><em>apuntes y dispares a alguien</em></strong> con un arco, marcas desgaste en el arco para tirar con Poderío. Si tienes éxito, puedes marcar agotamiento para infligir 1 herida adicional. Puedes volver a marcar agotamiento para que tu disparo ignore la armadura del enemigo —no podrá marcar desgaste para absorber las heridas—.</p>"
+		}
+	}
+}

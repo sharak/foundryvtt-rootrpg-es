@@ -1,0 +1,78 @@
+{
+	"label": "Movimientos del Bribón",
+	"folders": {
+		"Connections": "Conexiones",
+		"Drives": "Motivaciones",
+		"Moves": "Movimientos",
+		"Natures": "Naturalezas"
+	},
+	"mapping": {
+		"traitDescription": "flags.root.traitDescription",
+		"moveDescription": "system.description",
+		"critical": "system.moveResults.critical.value",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value"
+	},
+	"entries": {
+		"eZPE2bm9kvh34fvb": {
+			"name": "Pirómano",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando utilizas métodos innecesariamente destructivos o dañinos para resolver un problema."
+		},
+		"hQxBloYmp7yWxVxc": {
+			"name": "Personalidad explosiva",
+			"moveDescription": "Cuando destruyes algo con medios flagrantemente peligrosos (explosivos, llamas incontroladas, etc.), tiras con Suerte en lugar de Poderío."
+		},
+		"Better Lucky than Good": {
+			"name": "Más vale tener suerte que ser bueno",
+			"moveDescription": "<p>Cuando <strong>uses un movimiento con armas (básico o especial)</strong>, marca agotamiento para tirar con Suerte en lugar de con la aptitud indicada.</p>"
+		},
+		"Chaos": {
+			"name": "Caos",
+			"traitDescription": "Mejoras cuando derrocas a una figura u orden tiránico o peligrosamente dominante."
+		},
+		"Combative": {
+			"name": "Combativo",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando intentas iniciar una pelea contra una oposición abrumadora."
+		},
+		"Create to Destroy": {
+			"name": "Crear para destruir",
+			"moveDescription": "<p>Cuando <strong>utilices materiales disponibles para montar un artefacto peligroso</strong>, tira con Finura</p><details> <summary>Opciones</summary> <ul> <li>Más peligroso de lo previsto.</li> <li>Más grande o difícil de manejar de lo previsto.</li> <li>Más inestable y frágil de lo previsto.</li> </ul></details>",
+			"success": "Con un resultado de 10+, improvisas algo que haga lo que quieres, pero solo una vez. Elige una opción.",
+			"partial": "Con un resultado de 7-9, improvisas algo que haga lo que quieres, pero solo una vez. Elige dos opciones.",
+			"failure": "Con un resultado de 6-, necesitas algún componente vital para terminarlo; el DJ te dirá cuál."
+		},
+		"Crime": {
+			"name": "Crimen",
+			"traitDescription": "Mejoras cuando consigues ilícitamente un botín importante o llevas a cabo una operación ilegal contra todo pronóstico."
+		},
+		"Danger Mask": {
+			"name": "Máscara peligrosa",
+			"moveDescription": "<p>Tienes una máscara, disfraz o atuendo que usas cuando realizas tus trabajos más destructivos. Es más una combinación de tarjeta de visita y una marca de tu «verdadero yo» que un medio para ocultar tu identidad. Trátala como un objeto de equipo con dos casillas de desgaste. Mientras lleves la máscara puesta, cualquier ganancia de infamia que sufras se dobla, y cualquier ganancia de prestigio resulta en la mitad. También ganas +1 a <strong><em>confiar en el destino</em></strong> y a todos los movimientos específicos del libreto de personaje de Bribón. Si alguna vez se destruye la máscara, marcas 4 casillas de agotamiento. Si tu máscara es destruida, puedes hacer una nueva cuando pase algo de tiempo.</p>"
+		},
+		"Daredevil": {
+			"name": "Temerario",
+			"moveDescription": "<p>Tienes más suerte cuando te lanzas al peligro sin dudar. Cuando te <strong>lances a una situación peligrosa sin premeditación ni planificación</strong>, considera que tienes una «Armadura de la suerte», con 1 casilla de desgaste (recuerda que una armadura solo se «destruye» cuando tienes que marcar otra casilla de desgaste y todas sus casillas ya están llenas). La «Armadura de la suerte» desaparece automáticamente una vez que ha pasado el peligro, y la próxima vez que tengas «Armadura de la suerte», la obtienes como si fuera nueva con las casillas libres.</p>"
+		},
+		"Friend": {
+			"name": "Amigo",
+			"traitDescription": "___________ y yo nos conocimos hace tiempo y juntos llevamos a cabo una locura imposible. ¿Qué hicimos? ¿Por qué?"
+		},
+		"Infamy": {
+			"name": "Infamia",
+			"traitDescription": "Mejoras cuando disminuye tu Reputación con cualquier facción."
+		},
+		"It’s a Distraction!": {
+			"name": "¡Una distracción!",
+			"moveDescription": "<p>Obtienes la proeza de granuja @UUID[Compendium.root.feats.Item.ZktkLmvroSa67Bk3]{Por sorpresa} (no cuenta para tu límite). Cuando <strong><em>intentes una proeza de granuja</em></strong> para sorprender a alguien mientras está distraído por peligros ambientales (un incendio, una inundación, etc.), tira con Suerte en vez de Astucia.</p>"
+		},
+		"Partner": {
+			"name": "Socio",
+			"traitDescription": "___________y yo destruimos un recurso de una facción en nombre de una facción contraria. ¿Por qué?"
+		},
+		"Thrills": {
+			"name": "Emociones fuertes",
+			"traitDescription": "Mejoras cuando escapas de una muerte segura o encarcelamiento sin remedio."
+		}
+	}
+}

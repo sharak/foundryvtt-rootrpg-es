@@ -1,0 +1,84 @@
+{
+  "label": "Movimientos del aventurero",
+  "folders": {
+    "Connections": "Conexiones",
+    "Drives": "Motivaciones",
+    "Moves": "Movimientos",
+    "Natures": "Naturalezas"
+  },
+  "mapping": {
+    "traitDescription": "flags.root.traitDescription",
+    "moveDescription": "system.description",
+    "critical": "system.moveResults.critical.value",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value"
+  },
+  "entries": {
+    "Ambition": {
+      "name": "Ambición",
+      "traitDescription": "Mejoras cuando aumentas tu Reputación con cualquier facción."
+    },
+    "Clean Paws": {
+      "name": "Garras limpias",
+      "traitDescription": "Mejoras cuando logras un objetivo criminal ilícito manteniendo una apariencia de inocencia creíble."
+    },
+    "Extrovert": {
+      "name": "Extrovertido",
+      "traitDescription": "Recuperas tu contador de agotamiento cuando compartes un momento de verdadera calidez, amistad o disfrute con alguien."
+    },
+    "Fast Friends": {
+      "name": "Fast Friends",
+      "moveDescription": "<p>Cuando <strong>intentes hacerte amigo de un PNJ que acabas de conocer encajando con su personalidad, lenguaje corporal y deseos</strong>, marca agotamiento y tira con Astucia.</p>",
+      "success": "Con un resultado de 10+, te mirará con buenos ojos. Hazle cualquier pregunta no comprometedora y te responderá con la verdad, o pídele un favor sencillo y lo hará por ti. Además, le gustas de verdad, y compartirá contigo un secreto valioso o te concederá un favor importante.",
+      "partial": "Con un resultado de 7-9, te mirará con buenos ojos. Hazle cualquier pregunta no comprometedora y te responderá con la verdad, o pídele un favor sencillo y lo hará por ti.",
+      "failure": "Con un resultado de 6-, te equivocas de pata a rabo al analizar su forma de ser y su disgusto te cuesta caro."
+    },
+    "Friend": {
+      "name": "Amigo",
+      "traitDescription": "Viajé con ___________ durante un tiempo justo después de convertirme en vagabundo. Me ayudó a mantenerme a salvo y me enseñó el Bosque. ¿Qué recuerdo mío le regalé?"
+    },
+    "Justice": {
+      "name": "Justicia",
+      "traitDescription": "Mejoras cuando consigues justicia para alguien perjudicado por un individuo poderoso, rico o de alto estatus."
+    },
+    "Orator": {
+      "name": "Orador",
+      "moveDescription": "<p>Cuando <strong>des un discurso a los habitantes interesados de un claro</strong>, indica lo que les estás animando a hacer y tira Carisma.</p><details><summary>Opciones</summary><ul><li>No intentan llevar tu idea demasiado lejos.</li><li>No se disuelven a la primera señal de resistencia real.</li><li>No exigen que te pongas a la cabeza y les dirijas.</li></ul></details>",
+      "success": "Con un resultado de 10+, se pondrán en movimiento para hacerlo como ellos crean conveniente. Eliges dos opciones.",
+      "partial": "Con un resultado de 7-9, se pondrán en movimiento para hacerlo como ellos crean conveniente. Eliges una opción.",
+      "failure": "Con un resultado de 6-, retuercen tu mensaje de formas impredecibles."
+    },
+    "Partner": {
+      "name": "Socio",
+      "traitDescription": "___________ y yo luchamos codo con codo para defender un claro de los tejemanejes de una facción... pero fracasamos. ¿Por qué defendimos el claro? ¿Por qué fracasamos? ¿Quién nos derrotó?"
+    },
+    "Peacemaker": {
+      "name": "Pacificador",
+      "traitDescription": "Recuperas tu contador de agotamiento cuando resuelves un conflicto peligroso de forma no violenta."
+    },
+    "Principles": {
+      "name": "Principios",
+      "traitDescription": "Mejoras cuando expresas o encarnas tus principios morales a un gran coste para ti o tus aliados."
+    },
+    "Sterling Reputation": {
+      "name": "Reputación excelente",
+      "moveDescription": "<p>Siempre que <strong>marques cualquier cantidad de prestigio con una facción</strong>, marca una casilla de prestigio adicional. Cuando marques cualquier cantidad de infamia con una facción, puedes eliminar en su lugar una cantidad equivalente de prestigio que tengas marcado.</p>"
+    },
+    "Subduing Strikes": {
+      "name": "Ataquie subyugador",
+      "moveDescription": "<p>Cuando tu objetivo sea <strong>someter a un enemigo de forma rápida y no letal</strong>, puedes <strong><em>enfrentarte cuerpo a cuerpo</em></strong> con Astucia en lugar de Poderío. No puedes elegir infligir daño grave si lo haces así.</p>"
+    },
+    "Talon on the Pulse": {
+      "name": "Me lo ha dicho un pajarito",
+      "moveDescription": "<p>Cuando <strong>recabes información sobre lo que ocurre en un claro</strong>, tiras con Astucia</p><details><summary>Preguntas</summary><ul> <li>¿Quién ostenta el poder en este claro?</li> <li>¿Quién es el disidente local?</li> <li>¿A qué temen los habitantes?</li> <li>¿Qué esperan los habitantes?</li> <li>¿Qué oportunidades existen para los vagabundos emprendedores?</li></ul></details>",
+      "success": "Con un resultado de 10+, haces tres preguntas.",
+      "partial": "Con un resultado de 7-9, haces dos preguntas.",
+      "failure": "Con un resultado de 6-, tus preguntas alertan a alguien peligroso."
+    },
+    "Well-Read": {
+      "name": "Cultivado",
+      "moveDescription": "<p>Aumentas Astucia en +1 (máximo +3).</p>"
+    }
+  }
+}
