@@ -1,0 +1,44 @@
+{
+  "label": "Roguish Feats",
+  "mapping": {
+    "description": "flags.root.traitDescription"
+  },
+  "entries": {
+    "Acrobatics": {
+      "name": "Acrobacias",
+      "description": "<p><strong>Descripción:</strong> Escalar hábilmente, saltar, salto de altura, con pértiga o similar.</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Romper algo:</strong> Eres responsable de romper algo que lleves que esté en el entorno. Posiblemente suponga una marca de desgaste.</li> <li><strong>Ser detectado:</strong> Un espectador se ha dado cuenta de tu presencia. Y tiene que importar.</li> <li><strong>Ponerse en peligro:</strong> Aprovechas la oportunidad de realizar la proeza pero acabas metiéndote directamente en una situación más peligrosa.</li> </ul> </blockquote>"
+    },
+    "Blindside": {
+      "name": "Por sorpresa",
+      "description": "<p><strong>Descripción:</strong> Puñalada trapera, asesinato, ataque por sorpresa, puñetazo a traición</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Llamar la atención de no deseados:</strong> O bien aparecen espectadores hostiles donde antes nadie se preocupaba, o se ha llamado la atención sin ser detectado realmente. Aumenta el peligro en la zona.</li> <li><strong>Dejar pruebas:</strong> Dejas rastros que más tarde puedan conducir a una investigación en tu contra o exponer a tus aliados.</li> <li><strong>Ponerse en peligro:</strong> Aprovechas la oportunidad de realizar la proeza pero acabas metiéndote directamente en una situación más peligrosa. </li> </ul> </blockquote>"
+    },
+    "Counterfeit": {
+      "name": "Falsificación",
+      "description": "<p><strong>Descripción:</strong> Copiar, falsificar, engañar</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Dejar pruebas:</strong> Dejas rastros que más tarde puedan conducir a una investigación en tu contra o exponer a tus aliados.</li> <li><strong>Tardar demasiado:</strong> Empleas demasiado tiempo, haciendo que la situación cambie a tu alrededor de forma significativa.</li> <li><strong>Resultado pobre:</strong> Te encuentras ante una decisión difícil sobre lo que quieres exactamente, o directamente no consigues todo lo que querías.</li> </ul> </blockquote>"
+    },
+    "Disable Device": {
+      "name": "Inutilizar dispositivo",
+      "description": "<p><strong>Descripción:</strong> Desactivar trampas, detener mecanismos</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Romper algo:</strong> Eres responsable de romper algo que lleves que esté en el entorno. Posiblemente suponga una marca de desgaste. </li> <li><strong>Llamar la atención de no deseados:</strong> O bien aparecen espectadores hostiles donde antes nadie se preocupaba, o se ha llamado la atención sin ser detectado realmente. Aumenta el peligro en la zona.</li> <li><strong>Gastar recursos:</strong> Se consumen los suministros. Marcas agotamiento, existencias o desgaste a elección del DJ.</li> </ul> </blockquote>"
+    },
+    "Hide": {
+      "name": "Esconderse",
+      "description": "<p><strong>Descripción:</strong> Desaparecer de la vista, permanecer oculto</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Gastar recursos:</strong> Se consumen los suministros. Marcas agotamiento, existencias o desgaste a elección del DJ.</li> <li><strong>Dejar pruebas:</strong> Dejas rastros que más tarde puedan conducir a una investigación en tu contra o exponer a tus aliados.</li> <li><strong>Tardar demasiado:</strong> Empleas demasiado tiempo, haciendo que la situación cambie a tu alrededor de forma significativa.</li> </ul> </blockquote>"
+    },
+    "Pick Lock": {
+      "name": "Forzar cerraduras",
+      "description": "<p><strong>Descripción:</strong> Abrir una puerta cerrada, un cofre, etc.</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Romper algo:</strong> Eres responsable de romper algo que lleves que esté en el entorno. Posiblemente suponga una marca de desgaste. </li> <li><strong>Ser detectado:</strong> Un espectador se ha dado cuenta de tu presencia. Y tiene que importar.</li> <li><strong>Ponerse en peligro:</strong> Aprovechas la oportunidad de realizar la proeza pero acabas metiéndote directamente en una situación más peligrosa. </li> </ul> </blockquote>"
+    },
+    "Pickpocket": {
+      "name": "Carterista",
+      "description": "<p><strong>Descripción:</strong> Robar sutilmente algo de un bolsillo o bolsa</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Dejar pruebas:</strong> Dejas rastros que más tarde puedan conducir a una investigación en tu contra o exponer a tus aliados.</li> <li><strong>Tardar demasiado:</strong> Empleas demasiado tiempo, haciendo que la situación cambie a tu alrededor de forma significativa.</li> <li><strong>Resultado pobre:</strong> Te encuentras ante una decisión difícil sobre lo que quieres exactamente, o directamente no consigues todo lo que querías.</li> </ul> </blockquote>"
+    },
+    "Sleight of Hand": {
+      "name": "Prestidigitación",
+      "description": "<p><strong>Descripción:</strong> Ocultar en la mano, dar el cambiazo, deshacerse de algo, florituras</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Llamar la atención de no deseados:</strong> O bien aparecen espectadores hostiles donde antes nadie se preocupaba, o se ha llamado la atención sin ser detectado realmente. Aumenta el peligro en la zona.</li> <li><strong>Dejar pruebas:</strong> Dejas rastros que más tarde puedan conducir a una investigación en tu contra o exponer a tus aliados.</li> <li><strong>Resultado pobre:</strong> Te encuentras ante una decisión difícil sobre lo que quieres exactamente, o directamente no consigues todo lo que querías.</li> </ul> </blockquote>"
+    },
+    "Sneak": {
+      "name": "Infiltración",
+      "description": "<p><strong>Descripción:</strong> Entrar o salir de lugares sin ser visto</p> <blockquote> <p><strong>Riesgos</strong></p> <ul> <li><strong>Romper algo:</strong> Eres responsable de romper algo que lleves que esté en el entorno. Posiblemente suponga una marca de desgaste. </li> <li><strong>Llamar la atención de no deseados:</strong> O bien aparecen espectadores hostiles donde antes nadie se preocupaba, o se ha llamado la atención sin ser detectado realmente. Aumenta el peligro en la zona.</li> <li><strong>Ponerse en peligro:</strong> Aprovechas la oportunidad de realizar la proeza pero acabas metiéndote directamente en una situación más peligrosa. </li> </ul> </blockquote>"
+    }
+  }
+}

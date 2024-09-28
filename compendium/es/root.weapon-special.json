@@ -1,0 +1,82 @@
+{
+  "label": "Movimientos especiales con armas",
+  "mappings": {
+    "description": "system.description",
+    "critical": "system.moveResults.critical.value",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value"
+  },
+  "entries": {
+    "Cleave": {
+      "name": "Hender",
+      "description": "<p>Cuando <strong><em>hiendes la armadura de tu enemigo a corto alcance</em></strong>, marcas una casilla de agotamiento y tiras con Poderío</p>",
+      "success": "Con un resultado de 10+, atraviesas sus defensas y equipo, causando 3 casillas de daño de desgaste.",
+      "partial": "Con un resultado de 7-9, atraviesas sus defensas y equipo, causando 3 casillas de daño de desgaste. Fuerzas tu arma o a ti mismo: marcas una casilla de desgaste o tú acabas en una mala posición, tú eliges.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Confuse Senses": {
+      "name": "Confundir sentidos",
+      "description": "<p>Cuando <strong><em>arrojas algo a un oponente para confundir sus sentidos a corto alcance o pegado</em></strong>, tiras con Finura.</p>",
+      "success": "Con un resultado de 10+, tu oponente tiene que marcar 3 casillas de agotamiento o pierde su arma &mdash;cae fuera de su alcance&mdash;",
+      "partial": "Con un resultado de 7-9, tu oponente tiene que marcar 2 casillas de agotamiento o pierde su arma &mdash;cae fuera de su alcance&mdash;",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Disarm": {
+      "name": "Desarmar",
+      "description": "<p>Cuando <strong><em>el objetivo de tus golpes es el arma de un adversario a corto alcance</em></strong>, tiras con Finura.</p>",
+      "success": "Con un resultado de 10+, lo has desequilibrado, cegado, ensordecido o confundido, y consigues una oportunidad. Tu oponente tiene que tomarse un tiempo para orientarse y recuperar sus sentidos antes de volver a actuar con claridad.",
+      "partial": "Con un resultado de 7-9, lo has desequilibrado, cegado, ensordecido o confundido, y consigues una oportunidad. Solo consigues ganar unos instantes.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Harry a Group": {
+      "name": "Hostigar a un grupo",
+      "description": "<p>Cuando <strong><em>hostigas a un grupo de enemigos a largo alcance</em></strong>, marcas una casilla de desgaste y tiras con Astucia</p> <details> <summary>Efectos</summary> <ul> <li>Causas 2 de daño a moral.</li> <li>El grupo queda inmovilizado o bloqueado.</li> </ul> </details>",
+      "success": "Con un resultado de 10+, obtienes los dos efectos.",
+      "partial": "Con un resultado de 7-9, eliges uno de los efectos.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Improvise Weapon": {
+      "name": "Improvisar arma",
+      "description": "<p>Cuando <strong><em>fabricas un arma con materiales improvisados de tu alrededor</em></strong>, tiras con Astucia.</p>",
+      "success": "Con un resultado de 10+, fabricas un arma; el DJ te dirá su etiqueta de alcance y al menos otra etiqueta beneficiosa basada en los materiales que hayas utilizado.",
+      "partial": "Con un resultado de 7-9, fabricas un arma; el DK te dirá su etiqueta de alcance y al menos otra etiqueta beneficiosa basada en los materiales que hayas utilizado. El arma también tiene una etiqueta de defecto.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Parry": {
+      "name": "Parada",
+      "description": "<p>Cuando <strong><em>intentas parar los ataques de un enemigo a corto alcance</em></strong>, marcas una casilla de agotamiento y tiras con Finura</p> <details> <summary>Efectos</summary> <ul> <li>Infliges daño moral o de agotamiento (a elección del DJ).</li> <li>Desarmas a tu oponente; su arma queda fuera de sus manos, pero al alcance.</li> <li>No sufres ningún daño.</li> </ul> </details>",
+      "success": "Con un resultado de 10+, mantienes ocupada la atención de tu enemigo en ti. Consigues los 3 efectos.",
+      "partial": "Con un resultado de 7-9, mantienes ocupada la atención de tu enemigo en ti. Elige 1 efecto.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Quick Shot": {
+      "name": "Disparo rápido",
+      "description": "<p>Cuando <strong><em>realizas un disparo rápido a un enemigo a corto alcance</em></strong>, tiras con Suerte</p> <details> <summary>Opciones</summary> <ul> <li>No marcas marcas desgaste.</li> <li>No marcas agotamiento.</li> <li>Te mueves rápidamente y cambias de posición (y, si quieres, de alcance).</li> <li>Mantienes a raya a tu objetivo: no se mueve.</li> </ul> </details>",
+      "success": "Con un resultado de 10+, produces heridas. Eliges dos opciones.",
+      "partial": "Con un resultado de 7-9, produces heridas. Eliges una opción.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Storm a Group": {
+      "name": "Asaltar a un grupo",
+      "description": "<p>Cuando <strong><em>asaltes a un grupo de enemigos cuerpo a cuerpo</em></strong>, marca una casilla de ago- tamiento y tira con Poderío. Si tienes éxito, intercambiáis golpes y os provocáis daño </p> <details> <summary>Opciones</summary> <ul> <li>Los pones en evidencia; les infliges 2 de daño moral.</li> <li>Los mantienes desequilibrados y confusos; les infliges 2 de daño de agotamiento.</li> <li>Esquivas sus golpes lo mejor que puedes; sufres poco daño (-1).</li> <li>Los usas unos contra otros; marcas una casilla de agotamiento adicional y consigues que se inflijan su cantidad de daño contra sí mismos. </li> </ul> </details>",
+      "success": "Con un resultado de 10+, intercambias golpes y os provocáis daño. Eliges dos opciones.",
+      "partial": "Con un resultado de 7-9, intercambias golpes y os provocáis daño. Eliges una opción.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Trick Shot": {
+      "name": "Disparo trucado",
+      "description": "<p>Cuando <strong><em>realizas un disparo trucado para aprovechar el entorno a cualquier alcance, marcas una casilla de desgaste</em></strong> y tiras con Finura</p> <details> <summary>Opciones</summary> <ul> <li>Tu disparo impacta a cualquier objetivo a tu elección dentro del alcance, incluso si está detrás de cobertura o se encuentra oculto (infligiendo herida o desgaste si procede).</li> <li>Tu disparo impacta en un segundo objetivo a tu elección que esté disponible.</li> <li>Tu disparo corta, rompe o derriba algo, a tu elección.</li> <li>Tu disparo distrae a un oponente y proporciona una oportunidad.</li> </ul> </details>",
+      "success": "Con un resultado de 10+, eliges tres opciones.",
+      "partial": "Con un resultado de 7-9, eliges dos opciones.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    },
+    "Vicious Strike": {
+      "name": "Ataque vil",
+      "description": "<p>Cuando <strong><em>atacas vilmente a un oponente en un punto débil a corto alcance o pegado</em></strong>, marcas una casilla de agotamiento y tiras con Poderío</p>",
+      "success": "Con un resultado de 10+, tu enemigo sufre un daño grave (+1) y no puede marcar desgaste de su armadura para absorber el daño con ella.",
+      "partial": "Con un resultado de 7-9, tu enemigo sufre un daño grave (+1) y no puede marcar desgaste de su armadura para absorber el daño con ella. El elemigo también consigue dar un contragolpe.",
+      "failure": "Con un resultado de 6-, el DJ te dirá lo que ocurre"
+    }
+  }
+}
