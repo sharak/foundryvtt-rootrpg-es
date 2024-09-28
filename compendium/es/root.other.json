@@ -1,0 +1,12 @@
+{
+  "label": "Otros movimientos",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Session Moves": {
+      "name": "Movimientos de sesión",
+      "description": "<p>Cuando termine la sesión, de uno en uno, cada jugador lee sus motivaciones en voz alta. Los jugadores y el DJ discuten si el jugador cumplió con las condiciones de alguna de sus motivaciones durante la sesión de alguna manera que no haya sido destacada durante la sesión. Si lo ha hecho, y no ha mejorado durante la sesión por esa motivación en cuestión, entonces mejora.</p> <hr> <p>Cuando termine la sesión, de uno en uno, cada jugador puede elegir un elemento de su libreto de personaje para actualizarlo o cambiarlo. No están obligados a elegir    nada si no    quieren. Quien quiera, puede elegir una de las siguientes opciones:</p> <ul> <li>Reemplazar una motivación por una nueva de cualquier libreto de personaje.</li> <li>Reemplazar la naturaleza por una nueva naturaleza de cualquier libreto de personaje.</li> <li>Reemplazar una conexión (tanto el tipo como el asunto) por una nueva conexión de cualquier libreto de personaje. </li> </ul>"
+    }
+  }
+}
