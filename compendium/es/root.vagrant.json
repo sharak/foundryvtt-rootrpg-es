@@ -1,0 +1,84 @@
+{
+  "label": "Movimientos del Agitador",
+  "folders": {
+    "Connections": "Conexiones",
+    "Drives": "Motivaciones",
+    "Moves": "Movimientos",
+    "Natures": "Naturalezas"
+  },
+  "mappings": {
+    "traitDescription": "flags.root.traitDescription",
+    "moveDescription": "system.description",
+    "critical": "system.moveResults.critical.value",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value"
+  },
+  "entries": {
+    "Chaos": {
+      "name": "Caos",
+      "traitDescription": "Mejoras cuando derrocas a una figura u orden tiránico o peligrosamente dominante."
+    },
+    "Charm Offensive": {
+      "name": "Encanto agresivo",
+      "moveDescription": "<p>Cuando <strong>juegas con las inseguridades, preocupaciones o miedos de un enemigo para distraerlo con palabras durante un combate</strong>, tiras con Astucia.</p>",
+      "success": "Con un resultado de 10+, creas una oportunidad para ti. Puedes realizar cualquier movimiento con armas disponible contra él con un +1, o golpearle rápidamente y causarle daño.",
+      "partial": "Con un resultado de 7-9, creas una oportunidad para ti. Puedes realizar cualquier movimiento con armas disponible contra él con un +1, o golpearle rápidamente y causarle daño. Pero también lo enfureces; ya no te escuchará, hagas lo que hagas, hasta que la situación cambie drásticamente.",
+      "failure": "Con un resultado de 6-, le enfureces directamente; viene a por ti, con dureza, y no estás preparado."
+    },
+    "Clean Paws": {
+      "name": "Garras limpias",
+      "traitDescription": "Mejoras cuando logras un objetivo criminal ilícito manteniendo una apariencia de inocencia creíble."
+    },
+    "Desperate Smile": {
+      "name": "Sonrisa desesperada",
+      "moveDescription": "<p>Cuando <strong><em>confíes en el destino</em></strong> para ver el resultado de tu ruego, súplica o humillación, tira con Carisma en lugar de con Suerte.</p>"
+    },
+    "Family": {
+      "name": "Familia",
+      "traitDescription": "Después de que _________ y yo diéramos un impresionante golpe y robáramos algo muy valioso a una poderosa facción, mis malas decisiones me llevaron a una situación desesperada. Pero me sacó del apuro y desde entonces estamos muy unidos."
+    },
+    "Glutton": {
+      "name": "Vicioso",
+      "traitDescription": "Recuperas tu contador de agotamiento cuando te excedes en vicios como la bebida, la comida y el juego"
+    },
+    "Hustler": {
+      "name": "Estafador",
+      "traitDescription": "Recuperas tu contador de agotamiento cuando intentes estafar a un objetivo poderoso o peligroso."
+    },
+    "Instigator": {
+      "name": "Instigador",
+      "moveDescription": "<p>Cuando engañas a un PNJ para que luche contra otro PNJ, puedes eliminar una opción de la lista para el resultado de 7–9 —el PNJ no puede elegir esa opción en lugar de hacer lo que tú quieres—.</p>"
+    },
+    "Let’s Play": {
+      "name": "Vamos a jugar",
+      "moveDescription": "<p>Cuando <strong>juegues a un juego de habilidad e ingenio para soltarle la lengua a otro</strong>, tira con Carisma.</p>",
+      "success": "Con un resultado de 10+, se le escapa algo útil o valioso.",
+      "partial": "Con un resultado de 7-9, tienes que perder a lo que estés jugando para conseguirlo; marcas existencias.",
+      "failure": "Con un resultado de 6-, es mejor de lo que pensabas: marcas existencias y tratas de reducir tus pérdidas, o marca 3 casillas de existencias y empezará a hablar."
+    },
+    "Pleasant Facade": {
+      "name": "Pleasant Facade",
+      "moveDescription": "<p>Cuando <strong>hagas la pelota o engatuses a un PNJ confiado o desprevenido contar ti</strong>, tira con Carisma. Gasta tus puntos guardados a razón de 1 por 1 ocasión para desviar sus sospechas o su agresividad de ti hacia otra persona o cosa</p>",
+      "success": "Con un resultado de 10+, puedes guardar 3 puntos.",
+      "partial": "Con un resultado de 7-9, guardas 2 puntos.",
+      "failure": "Con un resultado de 6-, tus intentos de adulación le hacen sospechar —no te quitará ojo de encima—."
+    },
+    "Pocket Sand": {
+      "name": "Arena en el bolsillo",
+      "moveDescription": "<p>Adquieres la habilidad con armas <strong><em>confundir sentidos</em></strong> (no cuenta para tu límite). Cuando lances algo para confundir los sentidos de un oponente a corto alcance o pegado, tira con Astucia en lugar de con Finura.</p>"
+    },
+    "Thrills": {
+      "name": "Emociones fuertes",
+      "traitDescription": "Mejoras cuando escapas de una muerte segura o encarcelamiento sin remedio."
+    },
+    "Wanderlust": {
+      "name": "Ansia de viajar",
+      "traitDescription": "Mejoras cuando terminas un viaje a un claro."
+    },
+    "Watcher": {
+      "name": "Vigilante",
+      "traitDescription": " _________ me pilló el truco de una de mis estafas, y la volvió contra mí. ¿Cómo lo hizo? ¿Por qué nos perdonamos?"
+    }
+  }
+}
