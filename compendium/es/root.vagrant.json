@@ -6,7 +6,7 @@
     "Moves": "Movimientos",
     "Natures": "Naturalezas"
   },
-  "mappings": {
+  "mapping": {
     "traitDescription": "flags.root.traitDescription",
     "moveDescription": "system.description",
     "critical": "system.moveResults.critical.value",
