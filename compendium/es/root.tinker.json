@@ -1,0 +1,78 @@
+{
+	"label": "Movimientos del Chatarrero",
+	"folders": {
+		"Connections": "Conexiones",
+		"Drives": "Motivaciones",
+		"Moves": "Movimientos",
+		"Natures": "Naturalezas"
+	},
+	"mapping": {
+		"traitDescription": "flags.root.traitDescription",
+		"moveDescription": "system.description",
+		"critical": "system.moveResults.critical.value",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value"
+	},
+	"entries": {
+		"Ambition": {
+			"name": "Ambición",
+			"traitDescription": "Mejoras cuando aumentas tu Reputación con cualquier facción."
+		},
+		"Big Pockets": {
+			"name": "Bolsillos grandes",
+			"moveDescription": "<p>Tienes dos casillas extra de existencias.</p>"
+		},
+		"Dismantle": {
+			"name": "Desmantelar",
+			"moveDescription": "<p>Cuando <strong>desmanteles una pieza de equipo o maquinaria rota o inutilizada</strong>, recuperas 2 casillas de existencias.</p>"
+		},
+		"Family": {
+			"name": "Familia",
+			"traitDescription": "__________ y yo nos cubrimos las espaldas cuando nos echaron de un claro porque nuestras naturalezas se descontrolaron."
+		},
+		"Greed": {
+			"name": "Avaricia",
+			"traitDescription": "Mejoras cuando te aseguras un importante botín o un tesoro."
+		},
+		"Jury Rig": {
+			"name": "Artilugio improvisado",
+			"moveDescription":"<p>Cuando <strong>creas un artilugio improvisado sobre la marcha</strong>, tiras con Astucia</p>",
+			"success":"<p>Con un resultado de 10+, creas un artilugio que funciona una vez y luego se rompe. Además, elige una de las siguientes características:</p><ul> <li>Funciona excepcionalmente bien.</li> <li>Obtienes un uso adicional.</li></ul>",
+			"partial": "Con un resultado de 7-9, creas un artilugio que funciona una vez y luego se rompe.",
+			"failure": "Con un resultado de 6-, el artilugio funciona, pero tiene un efecto secundario no deseado que el DJ revelará cuando lo uses."
+		},
+		"Nimble Mind": {
+			"name": "Mente ágil",
+			"moveDescription": "<p>Cuando <strong><em>intentes proezas de granuja</em></strong> que impliquen mecanismos o cerraduras, marca existencias para tirar con Astucia en vez de con Finura.</p>"
+		},
+		"Perfectionist": {
+			"name": "Perfectionista",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando sustituyes la herramienta o el accesorio de otra persona por algo realmente genial."
+		},
+		"Professional": {
+			"name": "Profesional",
+			"traitDescription": "__________ y yo trabajamos bien juntos desde hace tiempo. Leemos los movimientos del otro con facilidad."
+		},
+		"Protection": {
+			"name": "Protección",
+			"traitDescription": "Di quién es tu protegido. Mejoras cuando lo proteges de un peligro importante, o cuando pasa el tiempo y tu protegido sigue a salvo."
+		},
+		"Radical": {
+			"name": "Radical",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando propones ideas peligrosas al público equivocado."
+		},
+		"Repair": {
+			"name": "Reparar",
+			"moveDescription": "<p>Cuando <strong>reparas equipo personal destruido con tu caja de herramientas</strong>, el DJ establecerá una condición para el movimiento de <strong><em>Caja de herramientas</em></strong>. Cúmplela y puedes eliminar todo el desgaste de ese equipo. Cuando <strong>reparas equipo personal dañado con tu caja de herramientas</strong>, lo haces siempre que marques existencias o Valor, a razón de 1 por cada casilla de desgaste que elimines.</p>"
+		},
+		"Revenge": {
+			"name": "Venganza",
+			"traitDescription": "Di quién es tu enemigo. Mejoras cuando le causes un daño significativo a él o a sus intereses."
+		},
+		"Toolbox": {
+			"name": "Caja de herramientas",
+			"moveDescription": "<p>Tienes un kit de herramientas y suministros con el que trabajas en proyectos a largo plazo.</p><details> <summary>Elige dos caracteristicas para el kit</summary> <ul> <li>Trozos de madera desechada de diferente tipo.</li> <li>Variedad de engranajes y muelles.</li> <li>Herramientas de especialista.</li> <li>Manuales.</li> <li>Medicinas variadas.</li> <li>Kit de alquimia portátil.</li> <li>Kit de costura.</li> <li>Utensilios de cocina.</li> <li>Explosivos de menor potencia.</li> </ul></details><details> <summary>Elige un inconveniente</summary> <ul> <li>Pesado (cuenta como 2 de Carga en lugar de 1).</li> <li>Voluminoso y evidente.</li> <li>Robado.</li> <li>Frágil.</li> </ul></details><p> Cuando <strong>abras tu caja de herramientas y te dediques a fabricar o a estudiar a fondo algo</strong>, decide el qué y díselo al DJ. El DJ te dará entre 1 y 4 condiciones que debes cumplir para lograr tu objetivo, incluyendo el tiempo necesario, los materiales necesarios, la ayuda necesaria, las instalaciones/herramientas necesarias o las limitaciones del proyecto. Cuando cumplas las condiciones, habrás logrado el objetivo.</p>"
+		}
+	}
+}

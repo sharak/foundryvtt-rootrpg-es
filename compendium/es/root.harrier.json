@@ -1,0 +1,81 @@
+{
+  "label": "Movimientos del Hostigador",
+  "folders": {
+    "Connections": "Conexiones",
+    "Drives": "Motivaciones",
+    "Moves": "Movimientos",
+    "Natures": "Naturalezas"
+  },
+  "mapping": {
+    "traitDescription": "flags.root.traitDescription",
+    "moveDescription": "system.description",
+    "critical": "system.moveResults.critical.value",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value"
+  },
+  "entries": {
+    "Competitive": {
+      "name": "Competitivo",
+      "traitDescription": "Recuperas tu contador de agotamiento cuando asumes riesgos dramáticamente innecesarios para presumir."
+    },
+    "Crime": {
+      "name": "Crimen",
+      "traitDescription": "Mejoras cuando consigues ilícitamente un botín importante o llevas a cabo una operación ilegal contra todo pronóstico."
+    },
+    "Cross Country": {
+      "name": "Campo a través",
+      "moveDescription": "<p>Adquieres una casilla extra de agotamiento. Cuando <strong>tu contador de agotamiento esté lleno y debas marcar una casilla más</strong>, puedes elegir marcar una cantidad equivalente de heridas en lugar de quedar exhausto y ser retirado de la situación o quedar inconsciente.</p>"
+    },
+    "Discovery": {
+      "name": "Descubrimiento",
+      "traitDescription": "Mejoras cuando encuentras una nueva maravilla o ruinas en la espesura."
+    },
+    "Don’t Shoot the Messenger": {
+      "name": "No mates al mensajero",
+      "moveDescription": "<p>Adquieres la proeza de granuja @UUID[Compendium.root.feats.Item.aroS6tQCfSvYN6ZO]{Falsificación} (no cuenta para tu límite). Cuando finjas ser un mensajero inofensivo que lleva una misiva de importancia para engañar a alguien, tira con Suerte en lugar de Astucia.</p>"
+    },
+    "Dutiful": {
+      "name": "Cumplidor",
+      "traitDescription": "Recuperas tu contador de agotamiento cuando asumes una tarea peligrosa o difícil en nombre de otro."
+    },
+    "Fleet of Foot and Hand": {
+      "name": "Manos ágiles, pies rápidos",
+      "moveDescription": "<p>Aumentas Finura en +1 (máximo +3).</p>"
+    },
+    "Friend": {
+      "name": "Amigo",
+      "traitDescription": "____________ y yo forjamos un vínculo mientras investigábamos unas ruinas en lo profundo de la espesura. ¿Qué extrañas baratijas menores nos llevamos cada uno de aquella expedición?"
+    },
+    "Infamy": {
+      "name": "Infamia",
+      "traitDescription": "Mejoras cuando disminuye tu Reputación con cualquier facción."
+    },
+    "Parkour": {
+      "name": "Parkour",
+      "moveDescription":"<p>Cuando <strong>te abres paso lanzándote a toda prisa a través de una escena o combate caóticos</strong>, tira con Finura. Gasta tus puntos guardados a razón de 1 por cada vez que te lances para alcanzar algo que esté a la vista y a tu alcance sin que puedas ser detenido, o para huir de algo cercano sin que puedas ser detenido. Puedes huir de un enemigo incluso en el momento en que ataca.</p>",
+      "success":"Con un resultado de 10+, guardas 3 puntos.",
+      "partial": "Con un resultado de 7-9, guardas 2 puntos.",
+      "failure": "Con un resultado de 6-, tu entorno te hará tropezar y quedarás atrapado mientras el peligro se acerca."
+    },
+    "Professional": {
+      "name": "Profesional",
+      "traitDescription": "____________ y yo intentamos abrir un nuevo camino entre dos claros; sin el apoyo de las facciones principales, nunca llegó a buen puerto."
+    },
+    "Smuggler’s Path": {
+      "name": "La senda del contrabandista",
+      "moveDescription":"<p>Tienes un sentido especial para encontrar caminos y puertas secretas. Cuando <strong>pasas tiempo buscando un camino secreto para entrar o salir de un lugar que podría tener uno</strong>, marcas agotamiento y tiras con Suerte</p>",
+      "success":"Con un resultado de 10+, encuentras un camino oculto: el DJ lo detallará y te dirá adónde conduce. Además, hay algo a lo largo o dentro del camino de valor para ti &mdash;el DJ te dirá el qué&mdash;.",
+      "partial": "Con un resultado de 7-9, encuentras un camino oculto: el DJ lo detallará y te dirá adónde conduce.",
+      "failure": "Con un resultado de 6-, encuentras un camino secreto... pero alguien más lo está usando en ese momento. Es probable que no se alegre de que hayas encontrado su secreto."
+    },
+    "Traveler Extraordinaire": {
+      "name": "Viajero extraordinario",
+      "moveDescription": "<p>Cuando <strong>viajes por los caminos hacia otro claro</strong>, siempre puedes dar +1 a la tirada o recuperar 2 casillas de agotamiento, a tu elección. Cuando <strong>viajes a través de la espesura</strong> hacia otro claro, siempre puedes dar +1 a la tirada o recuperar 2 casillas de existencias, a tu elección. En ambos casos, antes de llegar al siguiente claro, puedes hacer al DJ dos preguntas cualesquiera sobre el siguiente claro, basándote en lo que recuerdes de tu última vez.</p>"
+    },
+    "Wanderlust": {
+      "name": "Ansia de viajar",
+      "traitDescription": "Mejoras cuando terminas un viaje a un claro."
+    }
+  }
+}
