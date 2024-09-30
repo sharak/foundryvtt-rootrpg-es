@@ -1,0 +1,78 @@
+{
+	"label": "Mov. Montaraz",
+	"folders": {
+		"Connections": "Conexiones",
+		"Drives": "Motivaciones",
+		"Moves": "Movimientos",
+		"Natures": "Naturalezas"
+	},
+	"mapping": {
+		"traitDescription": "flags.root.traitDescription",
+		"moveDescription": "system.description",
+		"critical": "system.moveResults.critical.value",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value"
+	},
+	"entries": {
+		"Cynic": {
+			"name": "Cínico",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando planteas abierta y directamente preguntas peligrosas sobre una «verdad» aceptada."
+		},
+		"Dirty Fighter": {
+			"name": "Luchador sucio",
+			"moveDescription": "<p>Coge dos de las siguientes habilidades con armas</p> <p>@UUID[Compendium.root.weapon-special.Item.EwhkWgLikYolwwCH]{Disparo trucado}</p> <p>@UUID[Compendium.root.weapon-special.Item.EX4YuMPVWoVDr0Qv]{Confundir sentidos}</p> <p>@UUID[Compendium.root.weapon-special.Item.j6pWotpPfQePNTX8]{Improvisar arma}</p> <p>@UUID[Compendium.root.weapon-special.Item.1uM7YSsZIDEOSoEX]{Desarmar}</p> <p>@UUID[Compendium.root.weapon-special.Item.RT1WnI2rRG9kj6OO]{Ataque vil}</p> <p>Ninguna de las habilidades que adquieras por este movimiento cuenta en tu máximo para mejora.</p>"
+		},
+		"Discovery": {
+			"name": "Descubrimiento",
+			"traitDescription": "Mejoras cuando encuentras una nueva maravilla o ruinas en la espesura."
+		},
+		"Forager": {
+			"name": "Forrajeador",
+			"moveDescription": "<p>Cuando viajas a través o entras a la espesura, antes de hacer cualquier movimiento de viaje, puedes recuperar a tu elección:</p> <ul> <li>Hasta 3 casillas de existencias.</li> <li>Hasta 2 casillas de agotamiento.</li> <li>Hasta 2 casillas de heridas.</li> </ul>"
+		},
+		"Freedom": {
+			"name": "Libertad",
+			"traitDescription": "Mejoras cuando liberas a un grupo de\nhabitantes de la opresión."
+		},
+		"Loner": {
+			"name": "Solitario",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando entras solo en una situación peligrosa, sin refuerzos ni ayuda."
+		},
+		"Poisons and Antidotes": {
+			"name": "Venenos y antídotos",
+			"moveDescription": "<p>Eres experto en los venenos y antídotos del Bosque. Cuando <strong>prepares un veneno</strong>, marca existencias y di qué efecto quieres que tenga: sueño, debilidad, embriaguez o muerte. Cualquier veneno que elabores requiere ingestión o inyección; puedes usarlo en tu arma o ponerlo en la comida o bebida de tu objetivo. Cuando <strong>estudies un veneno</strong> o <strong>sus efectos para fabricar un antídoto</strong>, el DJ te dirá qué ingrediente especial necesitarás. Consigue el ingrediente y marca existencias para elaborar el antídoto.</p>"
+		},
+		"Protection": {
+			"name": "Protección",
+			"traitDescription": "Di quién es tu protegido. Mejoras cuando lo proteges de un peligro importante, o cuando pasa el tiempo y tu protegido sigue a salvo."
+		},
+		"Protector": {
+			"name": "Protector",
+			"traitDescription": "Hice algo que me habría granjeado la enemistad de una facción del Bosque, si ___________ no me hubiera encubierto. ¿Qué hice? ¿Por qué y cómo me protegió? En cualquier caso, me siento en deuda con él."
+		},
+		"Revenge": {
+			"name": "Venganza",
+			"traitDescription": "Di quién es tu enemigo. Mejoras cuando les causas un daño significativo a él o a sus intereses."
+		},
+		"Silent Paws": {
+			"name": "Patas silenciosas",
+			"moveDescription": "<p>Eres experto en meterte y escabullirte de situaciones peligrosas sin que nadie se dé cuenta. Cuando i<strong><em>ntentas una proeza de granuja</em></strong> para infiltrarte o esconderte, puedes marcar 2 casillas de agotamiento para cambiar un fallo por un resultado de 7 a 9.</p>"
+		},
+		"Slip Away": {
+			"name": "Escabullirte",
+			"moveDescription": "<p>Cuando <strong>aproveches una oportunidad para escapar de una situación peligrosa</strong>, tira con Finura.</p> <details> <summary>Opciones</summary> <ul> <li>Sufres heridas o agotamiento (a elección del DJ) durante tu huida.</li> <li>Acabas en otra situación peligrosa.</li> <li>Te dejas algo importante atrás.</li> </ul> </details>",
+			"success": "Con un resultado de 10+, escapas. Elige una opción.",
+			"partial": "Con un resultado de 7-9, escapas. Elige dos opciones.",
+			"failure": "Con un resultado de 6-, escapas, pero esto tiene un coste &mdash;heridas o agotamiento, a elección del DJ&mdash; y dejas una amplia evidencia atrás, gracias a la cual tus enemigos pueden rastrearte y seguirte."
+		},
+		"Threatening Visage": {
+			"name": "Rostro amenazante",
+			"moveDescription": "<p>Cuando <strong><em>persuades a un PNJ</em></strong> con amenazas abiertas o acero desnudo, tiras con Poderío en lugar de Carisma.</p>"
+		},
+		"Watcher": {
+			"name": "Vigilante",
+			"traitDescription": "___________ me engañó o estafó una vez. ¿Por qué sigo trabajando con él?"
+		}
+	}
+}

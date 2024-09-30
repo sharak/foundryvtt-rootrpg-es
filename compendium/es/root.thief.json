@@ -1,0 +1,79 @@
+{p>
+
+	"label": "Mov. Ladrón",
+	"folders": {
+		"Connections": "Conexiones",
+		"Drives": "Motivaciones",
+		"Moves": "Movimientos",
+		"Natures": "Naturalezas"
+	},
+	"mapping": {
+		"traitDescription": "flags.root.traitDescription",
+		"moveDescription": "system.description",
+		"critical": "system.moveResults.critical.value",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value"
+	},
+	"entries": {
+		"Ambition": {
+			"name": "Ambición",
+			"traitDescription": "Mejoras cuando aumentas tu Reputación con cualquier facción."
+		},
+		"Breaking and Entering": {
+			"name": "Allanamiento de morada",
+			"moveDescription": "<p>Cuando <strong><em>intentes proezas de granuja</em></strong> para entrar o salir de un lugar en el que has estado previamente, puedes marcar agotamiento para realizar el movimiento como si hubieras sacado un resultado de 10+, en lugar de tirar.</p>"
+		},
+		"Disappear Into the Dark": {
+			"name": "Desaparecer en la oscuridad",
+			"moveDescription": "<p>Cuando <strong>te deslizas entre las sombras para pasar desapercibido</strong>, marcas agotamiento y guardas 1 punto. Mientras permanezcas en silencio, te muevas lentamente y guardes el punto para este movimiento, permanecerás oculto. Si descubres tu posición sin darte cuenta, pierdes el punto guardado. Gasta tu punto guardado para aparecer desde un lugar oscuro, de repente y sin avisar. Si atacas a alguien inmediatamente después de gastar el punto guardado, obtienes +3 en la tirada.</p>"
+		},
+		"Freedom": {
+			"name": "Libertad",
+			"traitDescription": "Mejoras cuando liberas a un grupo de habitantes de la opresión."
+		},
+		"Friend": {
+			"name": "Amigo",
+			"traitDescription": "____________ se volcó para sacarme de apuros, ya fuera pagándome la fianza o rescatándome. Le debo una."
+		},
+		"Greed": {
+			"name": "Avaricia",
+			"traitDescription": "Mejoras cuando te aseguras un importante botín o un tesoro."
+		},
+		"Kleptomaniac": {
+			"name": "Cleptómano",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando intentas robar egoístamente algo valioso o importante."
+		},
+		"Master Thief": {
+			"name": "Maestro ladrón",
+			"moveDescription": "<p>Aumentas Finura en +1 (máximo +3).</p>"
+		},
+		"Nose for Gold": {
+			"name": "Olfato para el oro",
+			"moveDescription": "<p>Cuando <strong><em>disciernes las intenciones de alguien</em></strong>, siempre puedes preguntar (incluso si fallas):</p> <ul> <li>¿Qué es lo más valioso que llevas encima?</li> </ul> <p>Cuando <strong><em>leas una situación tensa</em></strong>, siempre puedes preguntar (incluso si fallas):</p> <ul> <li>¿Qué es lo más valioso que hay aquí?</li> </ul>"
+		},
+		"Professional": {
+			"name": "Profesional",
+			"traitDescription": "Robé algo importante, algo necesario o ansiado, para ___________. Le demostré mi valía."
+		},
+		"Rebellious": {
+			"name": "Rebelde",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando, de una manera grave, insultas, desafías o haces enfadar a figuras de autoridad."
+		},
+		"Rope-a-Dope": {
+			"name": "Juego de piernas",
+			"moveDescription": "<p>Cuando <strong>esquivas a tu enemigo para cansarlo</strong>, tiras con Finura.</p>",
+			"success": "Con un resultado de 10+, puedes marcar 1 casilla de agotamiento para hacer que tu enemigo marque 3.",
+			"partial": "Con un resultado de 7-9, puedes marcar 1 casilla de agotamiento para hacer que tu enemigo marque 2.",
+			"failure": "Con un resultado de 6-, te alcanzan en mitad de una esquiva: estás a su merced."
+		},
+		"Small Hands": {
+			"name": "Manos pequeñas",
+			"moveDescription": "<p>Cuando <strong>pelees</strong> con un enemigo más grande que tú, tira con Finura en vez de con Poderío. Si fallas, te supera: estás a su merced.</p>"
+		},
+		"Thrills": {
+			"name": "Emociones fuertes",
+			"traitDescription": "Mejoras cuando escapas de una muerte segura o encarcelamiento sin remedio."
+		}
+	}
+}

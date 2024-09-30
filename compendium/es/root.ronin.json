@@ -1,0 +1,81 @@
+{
+	"label": "Mov. Ronin",
+	"folders": {
+		"Connections": "Conexiones",
+		"Drives": "Motivaciones",
+		"Moves": "Movimientos",
+		"Natures": "Naturalezas"
+	},
+	"mapping": {
+		"traitDescription": "flags.root.traitDescription",
+		"moveDescription": "system.description",
+		"critical": "system.moveResults.critical.value",
+		"failure": "system.moveResults.failure.value",
+		"partial": "system.moveResults.partial.value",
+		"success": "system.moveResults.success.value"
+	},
+	"entries": {
+		"Always Armed": {
+			"name": "Siempre armado",
+			"moveDescription": "<p>Adquieres la habilidad con armas @UUID[Compendium.root.weapon-special.Item.j6pWotpPfQePNTX8]{Improvisar un arma} (no cuenta para tu límite). Cuando inflijas daño con un arma improvisada, causas +1 al daño.</p>"
+		},
+		"Always Watching": {
+			"name": "Siempre alerta",
+			"moveDescription": "<p>Aumentas Astucia en +1 (máximo +3).</p>"
+		},
+		"Fealty": {
+			"name": "Lealtad",
+			"moveDescription": "<p>Cuando <strong>te comprometes con la causa de alguien que consideras que lo merece</strong>, le haces un juramento en el que declaras qué tarea realizarás en su nombre. Marca agotamiento para volver a tirar un movimiento realizado en pos de esa tarea. No puedes comprometerte con otra causa hasta que cumplas la primera o rompas tu juramento. Si rompes tu juramento, llena por completo tu contador de agotamiento y marca 4 casillas de infamia con la facción cuya confianza traicionaste. Si cumples tu juramento, marca 4 casillas de prestigio con la facción cuya confianza mantuviste.</p>"
+		},
+		"Knowing a Lord’s Will": {
+			"name": "Conocer la voluntad de un señor",
+			"moveDescription": "<p>Cuando quieras <strong><em>discernir las intenciones</em></strong> de un habitante con estatus, autoridad o poder, tira con Poderío en vez de con Carisma. Cuando quieras <strong><em>engañar</em></strong> a un habitante con estatus, autoridad o poder haciéndote pasar por un subordinado, tira con Poderío en lugar de con Astucia.</p>"
+		},
+		"Partner": {
+			"name": "Socio",
+			"traitDescription": "____________ y yo trabajamos juntos en mi primera tarea realmente importante en el Bosque, deponer a una peligrosa figura de autoridad de una facción. ¿A quién depusimos? ¿Por qué?"
+		},
+		"Pilgrim": {
+			"name": "Peregrino",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando encuentras a un experto en una habilidad que no posees."
+		},
+		"Principles": {
+			"name": "Principios",
+			"traitDescription": "Mejoras cuando expresas o encarnas tus principios morales a un gran coste para ti o tus aliados."
+		},
+		"Revenge": {
+			"name": "Venganza",
+			"traitDescription": "Di quién es tu enemigo. Mejoras cuando le causas un daño significativo a él o a sus intereses."
+		},
+		"Survivor": {
+			"name": "Superviviente",
+			"traitDescription": "Recuperas tu contador de agotamiento cuando intentas huir o cubrir la huida de tus aliados de una situación peligrosa o abrumadora."
+		},
+		"The Rules of War": {
+			"name": "Las reglas de la guerra",
+			"moveDescription": "<p>Cuando <strong>pidas a un enemigo razonable que respete una regla de la guerra</strong>, tira con Poderío</p> <details> <summary>Opciones</summary> <ul> <li>Mostrar piedad con los enemigos y prisioneros que se rinden.</li> <li>Abstenerse de tácticas turbias en una lucha.</li> <li>Enfrentarse sin ayuda, apoyo o asistencia.</li> <li>Mantener la violencia alejada de los desarmados o inocentes.</li> <li>Luchar hasta la rendición o el sometimiento, sin retirada.</li> </ul> </details>",
+			"success": "Con un resultado de 10+, se siente obligado. Elige una opción que deberá seguir.",
+			"partial": "Con un resultado de 7-9, se siente obligado pero el enemigo elige una opción que tú debes seguir; si desobedeces, la obligación terminará.",
+			"failure": "Con un resultado de 6-, no se siente obligado a seguir lo que considera tus ideas sobre la guerra; prepárate para una brutal lección sobre las reglas del enemigo."
+		},
+		"Thrills": {
+			"name": "Emociones fuertes",
+			"traitDescription": "Mejoras cuando escapas de una muerte segura o encarcelamiento sin remedio."
+		},
+		"Wanderlust": {
+			"name": "Ansia de viajar",
+			"traitDescription": "Mejoras cuando terminas un viaje a un claro."
+		},
+		"Watcher": {
+			"name": "Vigilante",
+			"traitDescription": "Veo en ____________ muchas cosas que me recuerdan a mi antiguo señor. Me siento atraído por él, aunque le observo atentamente. ¿Qué es lo que me recuerda a mi antiguo señor? ¿Cómo se siente él con mi mirada continua?"
+		},
+		"Well-Mannered": {
+			"name": "Buenos modales",
+			"moveDescription": "<p>Cuando <strong>entres en un entorno social que depende de los modales y la etiqueta</strong>, tira con Astucia.</p> <details> <summary>Opciones</summary> <ul> <li>Encubrir un desliz social en tu nombre o en el de un aliado; recuperas 1 casilla de agotamiento.</li> <li>Llamar la atención sobre un desliz social de otra persona; le causa 1 de daño moral.</li> <li>Encandilar a alguien; ganas +1 Continuo para hablarle mientras te queden puntos guardados.</li> <li>Demostrar tu valía; marcas prestigio con la facción de un poderoso habitante.</li> </ul> </details>",
+			"success": "Con un resultado de 10+, guardas 3 puntos. Pierdes todos los puntos guardados no usados cuando te marchas o cuando las reglas sociales se desmoronan. Gasta los puntos guardados a razón de 1 por cada una de las opciones.",
+			"partial": "Con un resultado de 7-9, guardas 2 puntos. Pierdes todos los puntos guardados no usados cuando te marchas o cuando las reglas sociales se desmoronan. Gasta los puntos guardados a razón de 1 por cada una de las opciones.",
+			"failure": "Con un resultado de 6-, las reglas de etiqueta aquí son muy diferentes de lo que esperabas; marcas agotamiento al cometer un error gravemente descortés."
+		}
+	}
+}
