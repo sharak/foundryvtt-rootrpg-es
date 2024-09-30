@@ -1,0 +1,238 @@
+{
+  "label": "Etiquetas equipo",
+  "folders": {
+    "Positive Equipment Tags": "Etiquetas positivas",
+    "Negative Equipment Tags": "Etiquetas negativas",
+    "Ranges": "Alcances",
+    "Weapon Skills": "Habilidades con armas",
+    "Tool of the Trade": "Tool of the Trade",
+    "Heirloom Weapon": "Heirloom Weapon",
+    "Pirate's Ship": "Pirate's Ship"
+  },
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Arrow-Proof": {
+      "name": "A prueba de flechas",
+      "description": "<p>Ignora el primer impacto por flechas que cause heridas que sufras en una escena. (Armadura)</p>"
+    },
+    "Blunted": {
+      "name": "Roma",
+      "description": "<p>Esta arma inflige agotamiento, no heridas. (Martillo, bastón)</p>"
+    },
+    "Ceremonial": {
+      "name": "Ceremonial",
+      "description": "<p>Elige una facción relacionada con el objeto. Mientras este objeto esté a la vista, considera que tienes +1 de Reputación con esa facción, y -1 de Reputación con otras facciones. (Cualquiera)</p>"
+    },
+    "Cleave": {
+      "name": "Hender",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.78EbcqJh9bqAubuh]{Hender}.</p>"
+    },
+    "Close": {
+      "name": "Corto",
+      "description": "<p>Estáis lo bastance cerca para hablar cómodamente y para luchar con armas, no lo suficiente para tocaros sin esfuerzo, pero sí lo bastante cerca como para saltar al otro habitante y alcanzarle. Es la distancia a la que estarías para luchar con espadas (o a puñetazos desde cierta distancia), caminar en compañía del otro sin cogerse de la mano o para lanzarle algo con facilidad.</p>"
+    },
+    "Clumsy": {
+      "name": "Clumsy"
+    },
+    "Comfortable": {
+      "name": "Cómodo",
+      "description": "<p>Cuenta 1 menos para la Carga. (Armadura)</p>"
+    },
+    "Cumbersome": {
+      "name": "Cumbersome"
+    },
+    "Deadly": {
+      "name": "Deadly"
+    },
+    "Disarm": {
+      "name": "Desarmar",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.1uM7YSsZIDEOSoEX]{Desarmar}.</p>"
+    },
+    "Double-headed": {
+      "name": "Double-headed"
+    },
+    "Dreaded": {
+      "name": "Dreaded"
+    },
+    "Eaglecraft": {
+      "name": "Artesanía aguileña",
+      "description": "<p>Marca desgaste al <strong><em>enfrentarte cuerpo a cuerpo</em></strong> para que tu oponente y tú hagáis y sufráis otro intercambio de daño. (Armas)</p>"
+    },
+    "Enchanting": {
+      "name": "Enchanting"
+    },
+    "Far": {
+      "name": "Largo",
+      "description": "<p>Estáis lo suficientemente lejos para tener que hablar más alto, incluso gritar, para poder oíros, pero aun así podéis comunicaros. Es la distancia a la que se dispara con un arco, se ve al oponente desde lejos y se puede romper fácilmente la línea de visión y esconderse.</p>"
+    },
+    "Fast": {
+      "name": "Rápida",
+      "description": "<p>Marca desgaste al <strong><em>enfrentarte cuerpo a cuerpo</em></strong> para sufrir 1 menos de daño, incluso si fallas. (Armas pequeñas o finas)</p>"
+    },
+    "Feared": {
+      "name": "Feared"
+    },
+    "Flexible": {
+      "name": "Flexible",
+      "description": "<p>Cuando <strong><em>pelees</em></strong> con alguien, marca agotamiento para ignorar la primera elección que haga tu oponente. (Armadura)</p>"
+    },
+    "Foxfolk Steel": {
+      "name": "Acero zorruno",
+      "description": "<p>Ignora la primera casilla de desgaste que tengas que marcar en este objeto en cada sesión. (Armas y algunas armaduras)</p>"
+    },
+    "Friendly": {
+      "name": "Amistosa",
+      "description": "<p>Cuando te <strong><em>encuentres con alguien importante</em></strong>, marca agotamiento para tirar con tu +1 a tu Reputación. (Armadura, armas no amenazantes como bastones) </p>"
+    },
+    "Hair Trigger": {
+      "name": "Gatillo sensible",
+      "description": "<p>Marca desgaste para <strong><em>atacar a un enemigo vulnerable</em></strong> a corta distancia en lugar de lejos. (Ballesta)</p>"
+    },
+    "Harry a Group": {
+      "name": "Hostigar a un grupo",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.TtmqndtTIHwcaF8y]{Hostigar a un grupo}.</p>"
+    },
+    "Healer’s Kit": {
+      "name": "Kit de curandero",
+      "description": "<p>Marca desgaste para eliminar el agotamiento. Marca 2 casillas de desgaste para eliminar heridas. (Kit de curandero)</p>"
+    },
+    "Heavy Bludgeon": {
+      "name": "Maza pesada",
+      "description": "<p>Marca agotamiento para ignorar la armadura de tu enemigo cuando inflijas daño. (Martillo, maza)</p>"
+    },
+    "Heavy Draw Weight": {
+      "name": "Gran potencia de disparo",
+      "description": "<p>Cuando <strong><em>apuntes y dispares a un enemigo vulnerable</em></strong> con este arco, marca agotamiento para infligir 1 de daño adicional. (Arco)</p>"
+    },
+    "Intimate": {
+      "name": "Pegado",
+      "description": "<p>Estáis frente a frente, os podéis tocar fácilmente y rompéis las burbujas del espacio personal del otro. Es la distancia a la que estarías para empezar un combate de lucha libre, clavarle un dedo en el pecho a alguien o abrazarle.</p>"
+    },
+    "Iron bolts": {
+      "name": "Virotes de hierro",
+      "description": "<p>Esta arma causa 1 de desgaste adicional cuando el daño que provoque es absorbido por la armadura. (Arco, ballesta)</p>"
+    },
+    "Large": {
+      "name": "Larga",
+      "description": "<p>Cuando te enfrentas cuerpo a cuerpo, marca desgaste en esta arma para causar daño en lugar de intercambiar daño; no puedes usar esta etiqueta si el arma de tu enemigo también tiene alcance. (Armas grandes y altas)</p>"
+    },
+    "Luxury": {
+      "name": "Lujosa",
+      "description": "<p>Tras su creación, este objeto tiene un Valor +3. (Cualquiera)</p>"
+    },
+    "Mousefolk Steel": {
+      "name": "Acero ratuno",
+      "description": "<p>Marca desgaste al <strong><em>enfrentarte cuerpo a cuerpo</em></strong> para usar Astucia en lugar de Poderío. (Armas) </p>"
+    },
+    "Nimble": {
+      "name": "Nimble"
+    },
+    "Oiled String": {
+      "name": "Cuerda engrasada",
+      "description": "<p>Marca desgaste para usar la habilidad con armas disparo rápido aunque no la tengas. (Arco)</p>"
+    },
+    "Parry": {
+      "name": "Parada",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.koxBjhOuKfe1Ur2d]{Parada}.</p>"
+    },
+    "Pleasant": {
+      "name": "Pleasant"
+    },
+    "Quick": {
+      "name": "Quick"
+    },
+    "Quick Shot": {
+      "name": "Disparo rápido",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.jY3uTFRctwbo2vsd]{Disparo rápido}.</p>"
+    },
+    "Rabbitfolk Steel": {
+      "name": "Acero conejuno",
+      "description": "<p>Marca desgaste para <strong><em>enfrentarte cuerpo a cuerpo</em></strong> con Finura en lugar de Poderío. (Armas) </p>"
+    },
+    "Reach": {
+      "name": "Reach"
+    },
+    "Reliable": {
+      "name": "Reliable"
+    },
+    "Renowned": {
+      "name": "Renowned"
+    },
+    "Revealing": {
+      "name": "Revealing"
+    },
+    "Rickety": {
+      "name": "Rickety"
+    },
+    "Rousing": {
+      "name": "Rousing"
+    },
+    "Sharp": {
+      "name": "Afilada",
+      "description": "<p>Marca desgaste al causar daño con esta arma para infligir 1 de daño adicional. (Armas blancas y de filo)</p>"
+    },
+    "Short Limbs": {
+      "name": "Palas cortas",
+      "description": "<p>Marca desgaste para realizar un <strong><em>disparo rápido</em></strong> a largo alcance. (Arco corto)</p>"
+    },
+    "Slow": {
+      "name": "Slow"
+    },
+    "Stocked": {
+      "name": "Stocked"
+    },
+    "Stolen": {
+      "name": "Stolen"
+    },
+    "Storm a Group": {
+      "name": "Asaltar a un grupo",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.P8vRQ3vahMlteMoj]{Asaltar a un grupo}.</p>"
+    },
+    "Sturdy": {
+      "name": "Sturdy"
+    },
+    "Swift": {
+      "name": "Swift"
+    },
+    "Thick": {
+      "name": "Grueso",
+      "description": "<p>Cuando marques desgaste en este escudo para parar un golpe, solo tienes que marcar 1 de desgaste para bloquear el daño que cause, aunque sea mayor que 1. (Escudo)</p>"
+    },
+    "Throwable": {
+      "name": "Arrojadiza",
+      "description": "<p>Marca agotamiento para <strong><em>atacar a un enemigo vulnerable</em></strong> con esta arma a largo alcance. (Dagas, granadas) </p>"
+    },
+    "Tightly Woven": {
+      "name": "Entretejido firme",
+      "description": "<p>Cuando te tomas unos segundos para reparar esta armadura después de un combate, recupera 1 casilla de desgaste que marcaste mientras combatías. (Cota de malla)</p>"
+    },
+    "Trick Shot": {
+      "name": "Disparo trucado",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.EwhkWgLikYolwwCH]{Disparo trucado}.</p>"
+    },
+    "Tricky": {
+      "name": "Engañoso",
+      "description": "<p>Cuando usas este objeto para <strong><em>engañar a un PNJ</em></strong> distrayéndole a distancia, con un resultado 7–9 puedes marcar desgaste para eliminar una de las opciones que puede elegir el PNJ antes de que lo haga. (Boleadoras, arcos)</p>"
+    },
+    "Unassuming": {
+      "name": "Discreta",
+      "description": "<p>Mientras no dañes a un enemigo, nunca serás considerado como una amenaza mayor que otros vagabundos con armas y armaduras. (Túnicas, bastones y varas)</p>"
+    },
+    "Unique": {
+      "name": "Unique"
+    },
+    "Versatile": {
+      "name": "Versátil",
+      "description": "<p>Cuando te mueves hacia o desde un alcance en el que esta arma es útil, mar- ca desgaste para realizar un ataque rápido e infligir daño a cualquier oponente que esté al alcance de arma. (Armas rápidas)</p>"
+    },
+    "Vicious Strike": {
+      "name": "Ataque vil",
+      "description": "<p>El arma se puede usar con el movimiento especial @UUID[Compendium.root.weapon-special.Item.RT1WnI2rRG9kj6OO]{Ataque vil}.</p>"
+    },
+    "Weighty": {
+      "name": "Weighty"
+    }
+  }
+}

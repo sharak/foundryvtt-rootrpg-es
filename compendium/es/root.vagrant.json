@@ -58,8 +58,8 @@
       "failure": "Con un resultado de 6-, es mejor de lo que pensabas: marcas existencias y tratas de reducir tus pérdidas, o marca 3 casillas de existencias y empezará a hablar."
     },
     "Pleasant Facade": {
-      "name": "Pleasant Facade",
-      "moveDescription": "<p>Cuando <strong>hagas la pelota o engatuses a un PNJ confiado o desprevenido contar ti</strong>, tira con Carisma. Gasta tus puntos guardados a razón de 1 por 1 ocasión para desviar sus sospechas o su agresividad de ti hacia otra persona o cosa</p>",
+      "name": "Fachada agradable",
+      "moveDescription": "<p>Cuando <strong>hagas la pelota o engatuses a un PNJ confiado o desprevenido contra ti</strong>, tira con Carisma. Gasta tus puntos guardados a razón de 1 por 1 ocasión para desviar sus sospechas o su agresividad de ti hacia otra persona o cosa</p>",
       "success": "Con un resultado de 10+, puedes guardar 3 puntos.",
       "partial": "Con un resultado de 7-9, guardas 2 puntos.",
       "failure": "Con un resultado de 6-, tus intentos de adulación le hacen sospechar —no te quitará ojo de encima—."
