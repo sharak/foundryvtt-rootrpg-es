@@ -115,12 +115,12 @@
       "description": "<p>Esta arma causa 1 de desgaste adicional cuando el daño que provoque es absorbido por la armadura. (Arco, ballesta)</p>"
     },
     "Large": {
-      "name": "Larga",
-      "description": "<p>Cuando te enfrentas cuerpo a cuerpo, marca desgaste en esta arma para causar daño en lugar de intercambiar daño; no puedes usar esta etiqueta si el arma de tu enemigo también tiene alcance. (Armas grandes y altas)</p>"
+      "name": "Grande",
+      "description": "<p>Marca agotamiento cuando causes daño con esta arma para infligir 1 de daño adicional. (Armas)</p>"
     },
     "Luxury": {
       "name": "Lujosa",
-      "description": "<p>Tras su creación, este objeto tiene un Valor +3. (Cualquiera)</p>"
+      "description": "<p>Tras su creación, este objeto tien e un Valor +3. (Cualquiera)</p>"
     },
     "Mousefolk Steel": {
       "name": "Acero ratuno",
@@ -141,7 +141,8 @@
       "name": "Pleasant"
     },
     "Quick": {
-      "name": "Quick"
+      "name": "Precisa",
+      "description": "<p>Marca agotamiento para enfrentarte cuerpo a cuerpo con Finura en lugar de Poderío. (Armas pequeñas o rápidas)</p>"
     },
     "Quick Shot": {
       "name": "Disparo rápido",
@@ -152,7 +153,8 @@
       "description": "<p>Marca desgaste para <strong><em>enfrentarte cuerpo a cuerpo</em></strong> con Finura en lugar de Poderío. (Armas) </p>"
     },
     "Reach": {
-      "name": "Reach"
+      "name": "Larga",
+      "description": "<p>Cuando te enfrentas cuerpo a cuerpo, marca desgaste en esta arma para causar daño en lugar de intercambiar daño; no puedes usar esta etiqueta si el arma de tu enemigo también tiene alcance. (Armas grandes y altas)</p>"
     },
     "Reliable": {
       "name": "Reliable"

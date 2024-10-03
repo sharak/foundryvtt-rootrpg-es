@@ -2,7 +2,7 @@
   "title": "[Translation] Root RPG Spanish",
   "description": "Traducción del modulo y compendios para Root RPG",
   "url": "https://github.com/sharak/foundryvtt-rootrpg-es",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "authors": [
     {
       "name": "Roberto Lorite",
@@ -36,7 +36,6 @@
         "type": "system",
         "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
         "compatibility": {
-          "maximum": "0.8.1",
           "verified": "0.8.1",
           "minimum": "0.8.0"
         }
